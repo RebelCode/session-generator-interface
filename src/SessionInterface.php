@@ -2,8 +2,6 @@
 
 namespace RebelCode\Sessions;
 
-use DateTime;
-
 /**
  * Something that represents a session.
  *
@@ -12,20 +10,20 @@ use DateTime;
 interface SessionInterface
 {
     /**
-     * Retrieves the start date and time for this session.
+     * Retrieves the start timestamp for this session.
      *
      * @since [*next-version*]
      *
-     * @return DateTime
+     * @return int
      */
     public function getStart();
 
     /**
-     * Retrieves the end date and time for this session.
+     * Retrieves the end timestamp for this session.
      *
      * @since [*next-version*]
      *
-     * @return DateTime
+     * @return int
      */
     public function getEnd();
 }
