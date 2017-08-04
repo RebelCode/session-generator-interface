@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "RebelCode\\Session\\": "src"
+            "RebelCode\\Sessions\\": "src"
         }
     },
     "scripts": {
