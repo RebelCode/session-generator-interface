@@ -3,7 +3,6 @@
 namespace RebelCode\Sessions;
 
 use DateTimeInterface;
-use Traversable;
 
 /**
  * Something that generates sessions.
