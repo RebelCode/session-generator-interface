@@ -16,8 +16,8 @@ interface SessionGeneratorInterface
      *
      * @since [*next-version*]
      *
-     * @param DateTimeInterface     $start   The start of the range
-     * @param DateTimeInterface     $end     The end of the range.
+     * @param DateTimeInterface $start The start of the range
+     * @param DateTimeInterface $end   The end of the range.
      */
     public function generate(DateTimeInterface $start, DateTimeInterface $end);
 }
