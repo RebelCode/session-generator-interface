@@ -19,8 +19,6 @@ interface SessionGeneratorInterface
      *
      * @param DateTimeInterface     $start   The start of the range
      * @param DateTimeInterface     $end     The end of the range.
-     * @param int|array|Traversable $lengths The length or lengths of each session.
-     * @param int                   $padding The number of seconds between each session.
      */
-    public function generate(DateTimeInterface $start, DateTimeInterface $end, $lengths = [], $padding = 0);
+    public function generate(DateTimeInterface $start, DateTimeInterface $end);
 }
