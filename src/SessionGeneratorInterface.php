@@ -2,6 +2,8 @@
 
 namespace RebelCode\Sessions;
 
+use Traversable;
+
 /**
  * Something that generates sessions.
  *
@@ -16,6 +18,8 @@ interface SessionGeneratorInterface
      *
      * @param int $start The start of the range as a timestamp.
      * @param int $end   The end of the range as a timestamp.
+     *
+     * @return array|Traversable A list of generated sessions.
      */
     public function generate($start, $end);
 }
