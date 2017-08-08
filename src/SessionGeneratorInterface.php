@@ -2,8 +2,6 @@
 
 namespace RebelCode\Sessions;
 
-use DateTimeInterface;
-
 /**
  * Something that generates sessions.
  *
@@ -16,8 +14,8 @@ interface SessionGeneratorInterface
      *
      * @since [*next-version*]
      *
-     * @param DateTimeInterface $start The start of the range
-     * @param DateTimeInterface $end   The end of the range.
+     * @param int $start The start of the range as a timestamp.
+     * @param int $end   The end of the range as a timestamp.
      */
-    public function generate(DateTimeInterface $start, DateTimeInterface $end);
+    public function generate($start, $end);
 }
