@@ -7,7 +7,7 @@ use RebelCode\Sessions\SessionGeneratorInterface;
 use Xpmock\TestCase;
 
 /**
- * Tests {@see RebelCode\Sessions\SessionGeneratorInterface}.
+ * Tests {@see \RebelCode\Sessions\SessionGeneratorInterface}.
  *
  * @since [*next-version*]
  */
